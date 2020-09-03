@@ -13,3 +13,10 @@ The .h5 files contain the patches for training, validating and testing each mode
 which show the locations of metastases in each patch.
 
 P-CAM contains 96x96px patches from the CAMELYON16 challenge dataset which is available here - https://camelyon17.grand-challenge.org/Data/
+
+The ground-truth segmentations for the test set are provided in the testset_mask files. These are whole slide image (WSI) segmentations. Using the meta data csv files for the test set, the patchs in P-CAM can be matched up with their ground-truth segmentation.
+
+## Models
+Weights for three models trained on the P-CAM dataset are available. These weights are for an 11-layer VGG, a 34-layer ResNet and a 22-layer GoogLeNet.
+The checkpoint folder provides the weights directly after training. The best_model folder provides the weights which achieved the lowest loss. 
+The .py files contain a function (load_ckp) for loading the weights and the code for each model's architecture is there too.
