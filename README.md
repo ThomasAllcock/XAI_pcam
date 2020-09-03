@@ -1,5 +1,5 @@
 # XAI_pcam
 Interpretable Explanations of Lymph Node Metastases using Extremal Perturbations and GRAD-CAM.
 
-![PCam example images. Green boxes indicate positive labels.](https://github.com/ThomasAllcock/XAI_pcam/blob/master/positive_comp.png)
-*Example images from PCam. Green boxes indicate tumor tissue in center region, which dictates a positive label.*
+![Saliency Heatmaps.](https://github.com/ThomasAllcock/XAI_pcam/blob/master/positive_comp.png)
+*Extremal perturbation and GRAD-CAM saliency heatmaps for each model. Original image with ground-truth segmentation overlaid is on the far left. All images have a positive label and are correctly classified by each model.*
