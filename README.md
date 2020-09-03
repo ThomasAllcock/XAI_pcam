@@ -17,7 +17,7 @@ P-CAM contains 96x96px patches from the CAMELYON16 challenge dataset which is av
 The ground-truth segmentations for the test set are provided in the testset_mask files. These are whole slide image (WSI) segmentations. Using the meta data csv files for the test set, the patchs in P-CAM can be matched up with their ground-truth segmentation.
 
 ## Models
-Weights for three models trained on the P-CAM dataset are available. These weights are for an 11-layer VGG, a 34-layer ResNet and a 22-layer GoogLeNet.
+Weights for three models trained on the P-CAM dataset are available here -  https://drive.google.com/drive/folders/1axdMD12LLHjeVTpavs65TUYOT7p3W2a1?usp=sharing. These weights are for an 11-layer VGG, a 34-layer ResNet and a 22-layer GoogLeNet.
 The checkpoint folder provides the weights directly after training. The best_model folder provides the weights which achieved the lowest loss. 
 The .py files contain a function (load_ckp) for loading the weights and the code for each model's architecture is there too.
 
