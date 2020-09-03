@@ -20,3 +20,6 @@ The ground-truth segmentations for the test set are provided in the testset_mask
 Weights for three models trained on the P-CAM dataset are available. These weights are for an 11-layer VGG, a 34-layer ResNet and a 22-layer GoogLeNet.
 The checkpoint folder provides the weights directly after training. The best_model folder provides the weights which achieved the lowest loss. 
 The .py files contain a function (load_ckp) for loading the weights and the code for each model's architecture is there too.
+
+## TorchRay
+TorchRay is a python package that is required for the explainable AI used here. This can be found here - https://github.com/facebookresearch/TorchRay
