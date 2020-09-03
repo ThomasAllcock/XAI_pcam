@@ -9,3 +9,6 @@ Deep convolutional neural networks (CNNs) are increasingly being applied to hist
 
 ## Dataset
 P-CAM dataset was used for training the CNNs. It can be downloaded here - https://github.com/basveeling/pcam
+The .h5 files contain the patches for training, validating and testing each model. The meta.csv files are required for matching each patch up with the ground-truth segmentations
+which show the locations of metastases in each patch.
+P-CAM contained 96x96px patches from the CAMELYON16 challenge dataset which is available here - https://camelyon17.grand-challenge.org/Data/
