@@ -25,4 +25,4 @@ TorchRay is a python package that is required for the explainable AI used here. 
 ## Code
 
 trainer.py - this file contains the code used for training the models\
-eval_model.py - this file contains the code for evaluating the performance of each model, as well as ways to experiment with extremal perturbations,GRAD-CAM and the Pointing Game
+eval_model.py - this file contains the code for evaluating the performance of each model, as well as ways to experiment with extremal perturbations, GRAD-CAM and the Pointing Game
