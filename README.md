@@ -10,10 +10,8 @@ Deep convolutional neural networks (CNNs) are increasingly being applied to hist
 ## Dataset
 P-CAM dataset was used for training the CNNs. It can be downloaded here - https://github.com/basveeling/pcam.
 The .h5 files contain the patches for training, validating and testing each model. The meta.csv files are required for matching each patch up with the ground-truth segmentations
-which show the locations of metastases in each patch.
-
-P-CAM contains 96x96px patches from the CAMELYON16 challenge dataset which is available here - https://camelyon17.grand-challenge.org/Data/
-
+which show the locations of metastases in each patch.\
+P-CAM contains 96x96px patches from the CAMELYON16 challenge dataset which is available here - https://camelyon17.grand-challenge.org/Data/ \
 The ground-truth segmentations for the test set are provided in the testset_mask files. These are whole slide image (WSI) segmentations. Using the meta data csv files for the test set, the patchs in P-CAM can be matched up with their ground-truth segmentation.
 
 ## Models
@@ -26,5 +24,5 @@ TorchRay is a python package that is required for the explainable AI used here. 
 
 ## Code
 
-trainer.py - this file contains the code used for training the models
-eval_model.py = this file contains the code for evaluating the performance of each model, as well as ways to experiment with extremal perturbations and GRAD-CAM
+trainer.py - this file contains the code used for training the models\
+eval_model.py - this file contains the code for evaluating the performance of each model, as well as ways to experiment with extremal perturbations and GRAD-CAM
