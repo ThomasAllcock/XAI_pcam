@@ -1,2 +1,2 @@
 # XAI_pcam
-Extremal perturbation and GRAD-CAM used on Patch Camelyon dataset
+Interpretable Explanations of Lymph Node Metastases using Extremal Perturbations and GRAD-CAM.
