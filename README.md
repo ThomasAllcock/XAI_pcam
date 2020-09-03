@@ -20,7 +20,7 @@ The checkpoint folder provides the weights directly after training. The best_mod
 The .py files contain a function (load_ckp) for loading the weights and the code for each model's architecture is there too.
 
 ## TorchRay
-TorchRay is a python package that is required for the explainable AI used here. This can be found here - https://github.com/facebookresearch/TorchRay
+TorchRay is a python package that is required for the explainable AI used here. TorchRay can be found here - https://github.com/facebookresearch/TorchRay
 
 ## Code
 
