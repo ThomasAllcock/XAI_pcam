@@ -23,3 +23,8 @@ The .py files contain a function (load_ckp) for loading the weights and the code
 
 ## TorchRay
 TorchRay is a python package that is required for the explainable AI used here. This can be found here - https://github.com/facebookresearch/TorchRay
+
+## Code
+
+trainer.py - this file contains the code used for training the models
+eval_model.py = this file contains the code for evaluating the performance of each model, as well as ways to experiment with extremal perturbations and GRAD-CAM
