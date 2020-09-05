@@ -11,7 +11,8 @@ Deep convolutional neural networks (CNNs) are increasingly being applied to hist
 P-CAM dataset was used for training the CNNs. It can be downloaded here - https://github.com/basveeling/pcam.
 The .h5 files contain the patches for training, validating and testing each model. The meta.csv files are required for matching each patch up with the ground-truth segmentations
 which show the locations of metastases in each patch. P-CAM contains 96x96px patches from the CAMELYON16 challenge dataset which is available here - https://camelyon17.grand-challenge.org/Data/ \
-The ground-truth segmentations for the test set are provided here - https://drive.google.com/file/d/1_VhZBn5MPmDc7Ik09bPAMDy6uxo6cvUb/view?usp=sharing. These are whole slide image (WSI) segmentations. The patchs in P-CAM can be matched up with their ground-truth segmentation using the meta data csv files for the test set (this is already done in the .py files above).
+The ground-truth segmentations for the test set are provided here - https://drive.google.com/file/d/1_VhZBn5MPmDc7Ik09bPAMDy6uxo6cvUb/view?usp=sharing. These are whole slide image (WSI) segmentations. The patchs in P-CAM can be matched up with their ground-truth segmentation using the meta data csv files for the test set (this is already done in the .py files above). \
+The smallpoint_num.csv file contains the patch numbers from the test set that were used in the pointing game metric evaluation.
 
 ## Models
 Weights for three models trained on the P-CAM dataset are available here -  https://drive.google.com/drive/folders/1axdMD12LLHjeVTpavs65TUYOT7p3W2a1?usp=sharing. \
